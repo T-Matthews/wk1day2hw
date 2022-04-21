@@ -1,0 +1,113 @@
+html, body{margin:0px; padding:0px;}
+*{
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(73, 14, 14);
+    padding:0px;
+    margin:0px;
+
+}
+nav{
+    background-color: black;
+}
+ul{
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-content: space-around; 
+    padding-bottom:10px;
+    padding-top: 10px;
+
+    position:sticky;
+    top:0px;
+
+   
+    }
+.list1>li,a{
+    text-size-adjust: 20px;
+    color:rgb(56, 148, 56);
+    list-style-type: none;
+    text-decoration: none;
+}
+a:hover{
+    color:gold
+}
+figure{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:50vh;
+    background-image: url(/Images/dunmore_head_hero1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+figure>h3{
+    position: absolute;
+    top:27vh;
+    left:60vh;
+    color: rgb(143, 143, 143);
+}
+figure>h1{position: absolute;
+    top:30vh;
+    left:60vh;
+    color: rgb(255, 255, 255);
+}
+
+figure>p{
+position: absolute;
+top: 48vh;
+right:5vh;
+color: rgb(255, 255, 255);
+}
+
+.main{
+    
+}
+div>h1{
+    text-align: center;
+}
+.main-article{display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding-top: 2vh;
+    padding-left: 2vh;
+
+    padding-top: 2vh;
+    
+}
+#Article1, #Article2, #Article3{
+background-color: beige;
+border-radius: 2vh;
+padding-left: 2vh;
+padding-right:2vh;
+padding-bottom: 2vh;
+}
+#working-list{
+text-indent: 5vh;
+list-style-position: inside;
+}
+.side-article{
+    /*Have been fighting to get this side flexbox over to the right of the page
+    for several hours now. 
+    have tried just about everything feels like. Need to come back to this.  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border: 2vh white solid;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content:right;
+    width: 30%;
+    left:0px;
+}
+img{
+    max-height: 20vh;
+    border-radius: 2vh;
+    justify-content: center;
+
+}
